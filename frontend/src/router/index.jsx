@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom"
 import BaseLayout from "@/layouts/BaseLayout"
 
 import Home from "@/pages/Home"
+import MakeLitmus from "@/pages/MakeLitmus"
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,14 @@ const router = createBrowserRouter([
       </BaseLayout>
     ),
   },
+  {
+    path: "/make-litmus",
+    element: (
+      <BaseLayout>
+        <MakeLitmus />
+      </BaseLayout>
+    ),
+  }
 ])
 
 export default router

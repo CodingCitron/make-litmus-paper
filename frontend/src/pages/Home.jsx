@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <div>
-      테스트
+      <Link to="/make-litmus">문제 만들기</Link>
     </div>
   )
 }

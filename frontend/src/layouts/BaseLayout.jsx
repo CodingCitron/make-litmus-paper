@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 
-
 const BaseLayout = ({ children }) => {
   return (
     <div>

@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "description": "여기는 시험지 만드는 사이트에요.",
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
